@@ -17,8 +17,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('maxmind_geoip');
+        $treeBuilder = new TreeBuilder('maxmind_geoip');
+        $rootNode = $treeBuilder->getRootNode();
 
         $path = realpath(__DIR__.'/../../../../../data/GeoLiteCity.dat');
 

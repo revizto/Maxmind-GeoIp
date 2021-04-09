@@ -3,6 +3,8 @@ Maxmind GeoIp Library
 
 Symfony bundle to easily use maxmind geoip bundle.
 
+**Updated for Symfony 5**
+
 [![SensioLabsInsight][insight-image]][insight-url]
 [![Build][build-image]][build-url]
 
