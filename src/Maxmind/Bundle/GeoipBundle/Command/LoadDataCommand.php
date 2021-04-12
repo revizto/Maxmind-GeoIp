@@ -87,5 +87,7 @@ EOT
         if ($verbose) {
             $output->writeln('<info>Unzip completed</info>');
         }
+
+        return 0;
     }
 }
